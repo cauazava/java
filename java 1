@@ -1,0 +1,15 @@
+let a: number = 10;
+let b: number =5;
+
+console.log("soma", a + b);     //adiçao
+console.log("subtrção:", a * b); //multiplicação
+console.log("divisão", a / b); //divisão 
+console.log("módulo:", a % b); // resto de divisão
+console.log("exponenciação:", a ** b); // potencição
+
+//exemplo 2: operadores de incremento e decremento
+let contador: number = 0
+contador++; // incremento (equvilante a contador = contador + 1)
+console.log ("incremento:", contador);
+contador--; //decremento ( equivalente a contador = contador - 1)
+console.log("decremento", contador);
