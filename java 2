@@ -1,0 +1,6 @@
+let nome1: string = "alice";
+let nome2: string = "bob";
+console.log(nome1 > nome2);
+console.log(nome1 < nome2);
+console.log(nome1 == nome2);
+console.log(nome1 != nome2);
