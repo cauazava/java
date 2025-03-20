@@ -7,3 +7,16 @@ if (idade >= 18) {
 } else {
     console.log("Você não pode votar.");
 }
+
+
+const nome = "joao";
+const idade = 10;
+
+switch (true) {case idade >= 18:
+console.log ('$(nome), voce já pode tirar habilitçao');
+break;
+case idade >= 14:
+console.log('$(nome), dirigir so no videogame.');
+break;
+default:
+console.log('$(nome),aprenda a arrumar a cama primeiro')}
