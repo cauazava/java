@@ -1,0 +1,9 @@
+// Receber a idade da pessoa
+let idade = prompt("Digite a sua idade:");
+
+// Verificar se a idade é válida
+if (idade >= 18) {
+    console.log("Você pode votar.");
+} else {
+    console.log("Você não pode votar.");
+}
